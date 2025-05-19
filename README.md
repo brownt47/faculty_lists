@@ -31,7 +31,7 @@
 2. The tool automatically loads sample schedule and email data from this repository  
 3. It will:
    - Clean and process the data
-   - Flag support and PLC-linked courses
+   - Process courses with linked co-requistite support sections
    - Generate a timestamped Excel report
    - Export `.txt` rosters by course for D2L template uploads
 
