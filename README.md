@@ -1,4 +1,4 @@
-# Faculty Roster & D2L Upload Tool
+# D2L_Roster_and_Excel_Report_Tool
 
 **Streamline the process of building semester instructor reports and D2L template rosters.**
 
@@ -22,30 +22,33 @@
 
 ---
 
-### Run on Google Colab
+## 📁 How to Use
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](LINK-TO-YOUR-NOTEBOOK)
+### ▶️ Run on Google Colab
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/brownt47/faculty_lists/blob/main/D2L_Roster_and_Excel_Report_Tool.ipynb)
 
-1. Upload your **semester schedule CSV**
-2. Upload your **faculty email list CSV**
-3. The notebook will:
+1. Click the badge above to open the notebook in Colab  
+2. The tool automatically loads sample schedule and email data from this repository  
+3. It will:
+   - Clean and process the data
+   - Flag support and PLC-linked courses
+   - Generate a timestamped Excel report
+   - Export `.txt` rosters by course for D2L template uploads
 
-   * Merge, clean, and analyze the data
-   * Generate Excel and D2L-ready text files
-
-
+> 🔧 To use your own files:  
+> Modify the URLs in the **data loading cells** to point to your own GitHub-hosted CSVs.
 ---
 
 ## File Structure
 
 ```text
-Faculty_List_Report.ipynb     # Main notebook
+Faculty Roster & D2L Upload Tool.ipynb     # Main notebook
 sample_data/
-  sample_schedule.csv
-  faculty_emails.csv
+  CSV_Schedule_By_Department.csv
+  Faculty_Emails_Sample.csv
 outputs/
   List_of_Instructors_by_Course_YYYYMMDD.xlsx
-  MATH 1111 instructor roster.txt
+  MATH 1111 instructor roster.txt...
 requirements.txt
 ```
 
