@@ -35,9 +35,6 @@
    - Generate a timestamped Excel report
    - Export `.txt` rosters by course for D2L template uploads
 
-> 🔧 To use your own files:  
-> Modify the URLs in the **data loading cells** to point to your own GitHub-hosted CSVs.
-
 ---
 
 
